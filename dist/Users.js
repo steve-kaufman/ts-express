@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const sequelize_1 = require("sequelize");
-const sequelize = new sequelize_1.Sequelize('mern-ts-app', 'mern-ts-app', '1234', {
+const sequelize = new sequelize_1.Sequelize('ex-db', 'ex-db-user', '1234', {
     host: 'localhost',
     dialect: 'mariadb'
 });

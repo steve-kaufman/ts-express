@@ -1,5 +1,0 @@
-CREATE DATABASE IF NOT EXISTS `ex-db`;
-CREATE USER IF NOT EXISTS 'ex-db-user'@'localhost' IDENTIFIED BY '1234';
-GRANT CREATE, INSERT, SELECT ON `ex-db` . * TO 'ex-db-user'@'localhost'; 
-
-FLUSH PRIVILEGES;
